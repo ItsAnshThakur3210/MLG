@@ -1,0 +1,16 @@
+.btn-warning:hover{
+    font-size: large;
+}
+.btn-info:hover{
+    font-size: large;
+}
+canvas{
+    animation-name:example ;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px yellow;}
+    to{box-shadow: 1px 1px 38px orange;}
+}
